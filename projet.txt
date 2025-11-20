@@ -1,6 +1,2 @@
-<<<<<<< HEAD
 Arthur l'aventurier
 Antho arrive!
-=======
-Nasser l'aventurier
->>>>>>> c1dbe0703c65437626bb3d54e9f410a4cf2a11af
