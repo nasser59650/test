@@ -1,0 +1,16 @@
+on:
+  push:
+    branches:
+      - develop
+
+
+name: "Check Shell Scripts with ShellCheck"
+
+jobs:
+  shellcheck:
+    name: ShellCheck
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Run Shellcheck
+        uses: ludeeus/action-shellcheck@v1
