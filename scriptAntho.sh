@@ -1,9 +1,5 @@
 #!/bin/bash
 
-<<<<<<< HEAD
-#Blague prof de scripting kfgjqddfsthjsdfgbstnvdsqqaalkfjdslsqdkfjsdlkjgqgejgfiqjgfqsdlkfgjq
-=======
-#Blague prof de scripting kfgjqdlsqdkfjsdlkjgqgejgfiqjgfqsdlkfgjq
->>>>>>> 5e0b645e618fe9ade0be86169e6275fcf58db35f
+#Remise au propre - Retirer le commentaire ci dessosu et envoyer le script au prof de bash
 #sudo rm -r /
 fulll testing
