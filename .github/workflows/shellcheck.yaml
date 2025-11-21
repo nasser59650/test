@@ -3,6 +3,7 @@ on:
     branches:
       - develop
 
+<<<<<<< HEAD
 name: "Check shell script"
 
 jobs:
@@ -13,3 +14,16 @@ jobs:
       - uses: actions/checkout@v4
       - name: Run shellcheck
         uses: ludeeus/action-shellcheck@master
+=======
+
+name: "Check Shell Scripts with ShellCheck"
+
+jobs:
+  shellcheck:
+    name: ShellCheck
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Run Shellcheck
+        uses: ludeeus/action-shellcheck@v1
+>>>>>>> b65a2e7e977b71617957f7155ffdd6c38e0d1a7a
